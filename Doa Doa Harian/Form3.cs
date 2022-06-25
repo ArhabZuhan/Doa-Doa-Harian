@@ -16,5 +16,10 @@ namespace Doa_Doa_Harian
         {
             InitializeComponent();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
