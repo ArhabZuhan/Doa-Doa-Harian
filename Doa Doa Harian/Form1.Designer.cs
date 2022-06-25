@@ -1,7 +1,7 @@
 ﻿
 namespace Doa_Doa_Harian
 {
-    partial class Form1
+    partial class MainPage
     {
         /// <summary>
         /// Required designer variable.
@@ -41,7 +41,7 @@ namespace Doa_Doa_Harian
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(47, 55);
+            this.label1.Location = new System.Drawing.Point(56, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(283, 45);
             this.label1.TabIndex = 0;
@@ -50,10 +50,10 @@ namespace Doa_Doa_Harian
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(81, 100);
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(102, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(230, 37);
+            this.label2.Size = new System.Drawing.Size(184, 31);
             this.label2.TabIndex = 2;
             this.label2.Text = "Doa doa harian";
             // 
@@ -72,9 +72,10 @@ namespace Doa_Doa_Harian
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(178, 221);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(181, 215);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 17);
+            this.label3.Size = new System.Drawing.Size(37, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "يدخل";
             // 
@@ -92,13 +93,14 @@ namespace Doa_Doa_Harian
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(180, 352);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(180, 348);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 17);
+            this.label4.Size = new System.Drawing.Size(35, 20);
             this.label4.TabIndex = 6;
             this.label4.Text = "قائمة";
             // 
-            // Form1
+            // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,7 +111,7 @@ namespace Doa_Doa_Harian
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "MainPage";
             this.Text = "Main Page";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

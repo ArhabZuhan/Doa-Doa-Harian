@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace Doa_Doa_Harian
 {
-    public partial class Form1 : Form
+    public partial class MainPage : Form
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -23,7 +23,7 @@ namespace Doa_Doa_Harian
             int nWidthEllipse, // height of ellipse
             int nHeightEllipse // width of ellipse
         );
-        public Form1()
+        public MainPage()
         {
             InitializeComponent();
         }
