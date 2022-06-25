@@ -92,7 +92,7 @@ namespace Doa_Doa_Harian
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(178, 352);
+            this.label4.Location = new System.Drawing.Point(180, 352);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 17);
             this.label4.TabIndex = 6;
@@ -110,7 +110,8 @@ namespace Doa_Doa_Harian
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Main Page";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
